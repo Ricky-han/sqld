@@ -8,6 +8,7 @@ public class IndexController {
 
     @RequestMapping("/index")
     public String indexSample() {
+        // 테스트
         return "index";
     }
 
